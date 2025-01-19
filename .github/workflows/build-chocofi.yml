@@ -7,6 +7,6 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right","settings_reset"]'
-      kconfig: '["CONFIG_ZMK_PM_SOFT_OFF=y\nCONFIG_ZMK_MOUSE=y\nCONFIG_BT_CTLR_TX_PWR_PLUS_8=y"]'
+      kconfig: '["CONFIG_ZMK_PM_SOFT_OFF=y\nCONFIG_ZMK_MOUSE=y\nCONFIG_BT_CTLR_TX_PWR_PLUS_8=y\nCONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       branches: '["petejohanson/zmk/feat/pointers-move-scroll"]'
